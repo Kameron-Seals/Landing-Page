@@ -1,4 +1,76 @@
+/*heading bar*/
+.Headingbar{
+  display: flex;
+  color: #F9FAF8;
+  background-color: #1F2937;
+  padding: 20px 0px 20px 100px;
+  align-items: center;
+  opacity: .9;
 
-div {
-    color: white;
-  }
+}
+body {
+  background-color: #01202b;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', arial;
+  background-image: url(images/Isometric\ cube\ background50%.png);
+  background-size: 1922px 1081px;
+
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+
+}
+.header-logo img {
+  width: 84px;
+  height: 84px;
+  margin-right: auto;
+}
+
+
+/*DropDown*/
+
+/*dropdown flexbox*/
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: auto;
+  padding: 0px 100px 0px 0px; 
+}
+/*dropdown text*/
+.dropdown-content a {
+  text-decoration: none;
+    color: #adadad;
+    font-size: 18px;
+    padding: 10px;
+    font-family: 'Roboto', arial;
+    display: block;
+    text-shadow: 2px 2px black;
+    
+}
+
+/*the dropdown boxes color*/
+.dropdown-content {
+  text-decoration: none;
+  display: none;
+  position: absolute;
+  background-color: #014d31;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/*Original box Dropdown box color */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.dropdown-content a:hover {background-color: rgb(0, 0, 0);}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #29505f;}
+
